@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+</head>
+
+<style> 
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+
+main{
+   /* height: 100%;  */
+    width: 300px; 
+    padding: 10px;
+    border-radius: 40px;
+    border: 2px solid gray;
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    flex-direction: column;  
+ /* background-color: burlywood;  */
+}
+h1{
+     margin-bottom: 40px;
+    font-size: 50px;
+    background-color: rgb(161, 160, 160);
+}
+h2{
+    margin-bottom: 20px;
+    font-size: 30px;
+    background-color: rgb(235, 233, 233);
+}
+input{
+    height: 40px;
+    width: 100%;
+    margin-bottom: 15px;
+    text-align:right;
+    outline: none;
+}
+button{
+   height: 55px;
+   width:55px;
+   font-size: 20px;
+   font-weight: bolder;
+   border-radius: 25px;
+   background-color: transparent;
+   border: 1px sloid gray;
+}
+.row{
+    display: flex;
+     gap: 15px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+.color{
+    
+    color: blue;
+    background-color: rgb(175, 223, 243);
+}
+
+
+</style>
+
+<body>
+
+     <h1> Calculator  </h1>
+
+     <!-- <h2> Calculate Me !</h2> -->
+
+<main>
+
+  <h2> Calculate Me </h2>  
+
+<input id="sc" type="text" readonly>
+<hr style="margin-bottom: 10px">
+<div class="row">
+ <button> AC </button>
+<button> DEL </button>
+<button>  % </button>
+<button> / </button>   
+</div>
+
+<div class="row">
+ <button> 1 </button>
+<button> 2 </button>
+<button> 3 </button>
+<button> + </button>   
+</div>
+
+<div class="row">
+ <button> 4 </button>
+<button>  5 </button>
+<button>  6 </button>
+<button> - </button>   
+</div>
+
+<div class="row">
+ <button> 7 </button>
+<button> 8 </button>
+<button> 9 </button>
+<button > * </button>   
+</div>
+
+<div class="row">
+ <button> 0 </button>
+<button> 00 </button>
+<button> +/- </button> 
+<button> = </button>   
+</div>
+
+ <!-- <div class="cards">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpgmYU89E9Ttt-_wMPUZzSO0iQko72cbBf5Q&s" alt=""> 
+    <h2> User Name 1 :</h2>
+    <p class=>User  Email 1 :</p>
+    <p class=> About User 1: </p>
+    <p class=> City:  Street: Zipcode :</p>
+    <p> Mobile No: </p>
+    </div>
+
+    <div class="cards">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFFuaQWiuGJEie7ZxemO4bjBvNAnNzKd3R5A&s" alt=""> 
+    <h2> User Name 2</h2>
+    <p class="User email 1">User  Email 1</p>
+    <p class="About Us"> About User 1 </p>
+    <p class="Address"> City Street Zipcode </p>
+    <p> Mobile No. </p>
+    </div>
+
+    <div class="cards">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLe5PABjXc17cjIMOibECLM7ppDwMmiDg6Dw&s" alt=""> 
+    <h2> User Name 3</h2>
+    <p class="User email 1">User  Email 1</p>
+    <p class="About Us"> About User 1 </p>
+    <p class="Address"> City Street Zipcode </p>
+    <p> Mobile No. </p>
+    </div>
+
+    <div class="cards">
+    
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpgmYU89E9Ttt-_wMPUZzSO0iQko72cbBf5Q&s" alt="">   
+    <h2> User Name 4</h2>
+    <p class="User email 1">User  Email 1</p>
+    <p class="About Us"> About User 1 </p>
+    <p class="Address"> City Street Zipcode </p>
+    <p> Mobile No. </p>
+    </div>
+
+    <div class="cards">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLe5PABjXc17cjIMOibECLM7ppDwMmiDg6Dw&s" alt="">
+    <h2> User Name 5 </h2>
+    <p class="User email 1">User  Email 1</p>
+    <p class="About Us"> About User 1 </p>
+    <p class="Address"> City Street Zipcode </p>
+    <p> Mobile No. </p>
+    </div>
+
+    <div class="cards">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpgmYU89E9Ttt-_wMPUZzSO0iQko72cbBf5Q&s" alt=""> 
+    <h2> User Name 6</h2>
+    <p class="User email 1">User  Email 1</p>
+    <p class="About Us"> About User 1 </p>
+    <p class="Address"> City Street Zipcode </p>
+    <p> Mobile No. </p>
+    </div> -->
+</main>
+
+
+    <script src="./index.js"> </script>
+</body>
+</html>
